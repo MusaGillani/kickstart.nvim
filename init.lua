@@ -1,6 +1,5 @@
 vim.g.mapleader = ' '
-vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
--- vim.keymap.set('n', '<leader>f', vim.lsp.buf.format)
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = '[P]roject [V]iew -> open netrw' })
 vim.keymap.set('n', '<leader>w', ':w<CR>', { noremap = true, silent = true })
 --[[
 
